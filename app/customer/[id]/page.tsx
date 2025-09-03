@@ -1,6 +1,5 @@
 'use client';
 import { use } from 'react';
-// import Link from "next/Link";
 
 export default function UserId({
   params,
@@ -9,9 +8,5 @@ export default function UserId({
 }) {
   const { id } = use(params);
 
-  return <>hello user id : {id}</>;
+  return <>hello customer id : {id}</>;
 }
-
-// export default function UserProfile() {
-//   return <>hello</>;
-// }

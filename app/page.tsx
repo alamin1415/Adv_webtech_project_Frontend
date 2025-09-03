@@ -1,8 +1,11 @@
+import HeroSection from './components/home/hero';
+import ServicesShowcase from './components/home/ServicesShowcase';
+
 export default function Home() {
   return (
     <>
-      <h1> home</h1>
-      <p> this is the home page </p>
+      <HeroSection />
+      <ServicesShowcase />
     </>
   );
 }
