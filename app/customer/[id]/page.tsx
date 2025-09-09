@@ -1,12 +1,12 @@
 'use client';
 import { use } from 'react';
 
-export default function UserId({
+export default function customerId({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
   const { id } = use(params);
 
-  return <>hello customer id : {id}</>;
+  return <>hello i am customer id : {id}</>;
 }
