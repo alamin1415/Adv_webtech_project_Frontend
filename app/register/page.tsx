@@ -8,7 +8,7 @@ import { useForm } from 'react-hook-form';
 import {
   RegistrationFormData,
   registrationSchema,
-} from '../../lib/validation/resistration.schema';
+} from '../../lib/validation/registraion.schema';
 
 export default function Register() {
   const [serverMessage, setServerMessage] = useState<string | null>(null); // UI message state

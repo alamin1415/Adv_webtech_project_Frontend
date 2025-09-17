@@ -6,7 +6,7 @@ export const loginSchema = z.object({
   phone: z
     .string()
     .min(10, 'Mobile number must be at least 10 digits')
-    .max(15, 'Mobile number must be at most 15 digits')
+    .max(14, 'Mobile number must be at most 15 digits')
     .regex(
       /^\+?\d+$/,
       'Invalid mobile number format, must contain only digits and optional +'
